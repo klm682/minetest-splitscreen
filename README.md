@@ -27,10 +27,10 @@ Brief Howto
 2.  Configure your controllers using xboxdrv (we do this at boot).
 3.  Log into IceWM desktop (Gnome, even on Xorg rather than Wayland does not work)
 4.  Run our `mt2.sh` script.  It does the following:
-    a.  Launch two instanaces of minetest.
-    b.  Use "xinput" to configure a mouse/keyboard combo for each controller.
-    c.  Map each of the virual mouse/keyboards to one of the minetest windows.
-    d.  Resize the two windows side-by-side.
+      * Launch two instances of minetest.
+      * Use "xinput" to configure a mouse/keyboard combo for each controller.
+      * Map each of the virual mouse/keyboards to one of the minetest windows.
+      * Resize the two windows side-by-side.
 5.  Use the regular keyboard/mouse to change usernames, select server, connect, etc.
 
 
