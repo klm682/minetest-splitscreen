@@ -5,8 +5,7 @@ Want to run multiplayer split-screen Minetest on a single computer?
 
 This repo shares our scripts for doing that as well as our controller setups.
 
-TODO: screenshot.
-
+![Screenshot 1](/screenshot.png)
 
 Our Setup
 ---------
