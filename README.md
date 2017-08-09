@@ -17,7 +17,7 @@ Our Setup
   * A Logitech F310 wired game controller.
   * A Logitech F710 wireless game controller.
 
-(Other controllers should work too but we 
+(Other controllers should work too)
 
 
 Brief Howto
