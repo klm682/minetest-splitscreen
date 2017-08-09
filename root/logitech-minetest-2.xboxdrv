@@ -1,0 +1,62 @@
+# based on examples/mouse.xboxdrv
+
+[xboxdrv]
+ui-clear=true
+silent=false
+trigger-as-button = true
+
+[ui-axismap]
+x2^dead:4000 = REL_X:750:-1
+y2^dead:4000 = REL_Y:750:-1
+
+# y2^dead:6000^invert = REL_WHEEL:5:100
+# x2^dead:6000 = REL_HWHEEL:5:100
+# trigger^invert=REL_WHEEL:5:100
+
+#y2^dead:6000^invert = rel-repeat:REL_WHEEL:1:50
+#x2^dead:6000 = rel-repeat:REL_HWHEEL:1:50
+# trigger^invert = rel-repeat:REL_WHEEL:1:50
+
+#y2^dead:6000 = rel-repeat:REL_WHEEL:1:50
+#x2^dead:6000 = rel-repeat:REL_HWHEEL:1:50
+
+# left stick as wasd movement
+x1=KEY_A:KEY_D
+y1=KEY_W:KEY_S
+
+
+[ui-buttonmap]
+a = KEY_SPACE
+b = KEY_Q
+x = KEY_LEFTSHIFT
+y = KEY_I
+
+# needs --trigger-as-button
+rt = BTN_LEFT
+lt = BTN_RIGHT
+
+# bumper keys (top on front), cycle through quick inventory
+#rb = BTN_LEFT
+#lb = BTN_RIGHT
+# Note "inv2" here must differ from other controller's config
+rb=cycle-key-named:inv2:KEY_1:KEY_2:KEY_3:KEY_4:KEY_5:KEY_6:KEY_7:KEY_8
+lb=cycle-key-ref:inv2
+
+# these are stick clicks, unmapped for now
+#tl = BTN_LEFT
+#tr = BTN_RIGHT
+
+[ui-buttonmap]
+dl = KEY_A
+dr = KEY_D
+du = KEY_W
+dd = KEY_S
+
+[ui-buttonmap]
+back  = KEY_ESC
+# "start" button
+start = KEY_F9  # cycle through maps
+# "Logitech" button (mode)
+guide = KEY_F7  # change character view
+
+# EOF #
